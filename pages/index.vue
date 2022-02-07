@@ -1,18 +1,21 @@
 <template>
     <header>
      <TopUm />
-     <MenuNovo />
+     <MenuDois />
+     <SliderDois />
     </header>
 </template>
 
 <script>
-import MenuNovo from '~/components/menus/MenuNovo'
+import MenuDois from '~/components/menus/MenuDois'
 import TopUm from '~/components/topinhos/TopUm'
+import SliderDois from '~/components/slider/SliderDois'
 
 export default{
   components: {
-    MenuNovo,
-    TopUm
+    MenuDois,
+    TopUm,
+    SliderDois
   }
 }
 

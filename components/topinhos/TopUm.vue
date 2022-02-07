@@ -77,6 +77,7 @@ export default {
 @import '~/assets/css/bootstrap.css';
 @import '~/assets/css/font-icons.css';
 @import '~/assets/css/swiper.css';
+@import '~/assets/global.css';
 
 
 /*classe top-bar lado esquerdo */

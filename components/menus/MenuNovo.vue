@@ -93,7 +93,9 @@
 @import '~/assets/css/bootstrap.css';
 @import '~/assets/css/font-icons.css';
 @import '~/assets/css/swiper.css';
+@import '~/assets/global.css';
 
+/*
 #header {
 	position: relative;
 	background-color: #FFF;
@@ -122,7 +124,7 @@ body {
 	}
 }
 
-/*Logo css*/
+
 
 #logo {
 	position: relative;
@@ -221,5 +223,5 @@ body:not(.device-touch) .social-icon {
 	font-weight: 400;
 	color: #1ABC9C;
 }
-
+*/
 </style>

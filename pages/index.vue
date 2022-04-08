@@ -5,42 +5,51 @@
       <MenuTeste />
     </header>
 
-		<section id="slider" class="slider-element h-auto" style="background-color: #222;">
-			<div class="slider-inner">
+    <SliderTeste />
 
-				<div class="owl-carousel carousel-widget" data-margin="0" data-items="1" data-pagi="false" data-loop="true" data-animate-in="rollIn" data-speed="450" data-animate-out="rollOut" data-autoplay="5000">
+    <div class="container">
+      <div class="grid">
+        <div class="col-6 componetes">
+          <h2>nós o usamos?</h2>
+          É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
+          A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", 
+          fazendo com que ele tenha uma aparência similar a de um texto legível. Muitos softwares de publicação e editores de páginas na internet agora usam 
+          Lorem Ipsum como texto-modelo padrão, e uma rápida busca por 'lorem ipsum' mostra vários websites ainda em sua fase de construção. Várias versões novas 
+          surgiram ao longo dos anos, eventualmente por acidente, e às vezes de propósito (injetando humor, e coisas do gênero).
+        </div>
+        <div class="col-6">
+        <img src="~/assets/images/loader-image.gif" width="804" height="717" class="image-home" alt="funcionalidades">
+        </div>
+      </div>
 
-					<a href="#"><img src="~/assets/images/slider/full/1.jpg" alt="Slider"></a>
-					<a href="#"><img src="~/assets/images/slider/full/2.jpg" alt="Slider"></a>
-					<a href="#"><img src="~/assets/images/slider/full/3.jpg" alt="Slider"></a>
-					<a href="#"><img src="~/assets/images/slider/full/4.jpg" alt="Slider"></a>
-
-				</div>
-			</div>
-		</section>
-
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="~/assets/images/slider/full/1.jpg" alt="First slide">
     </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="~/assets/images/slider/full/2.jpg" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="~/assets/images/slider/full/3.jpg" alt="Third slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+    
+    <FlipCards />
 
+    <div class="content-wrap">
+      <div class="container clearfix">
+        <div class="container">
+          <div class="grid">
+            <div class="col-6">
+            <img src="~/assets/images/restaurant/21.png" width="648" height="717" class="image-home" alt="funcionalidades">
+            </div>
+            <div class="col-6 componetes">
+           <h2>nós o usamos?</h2>
+           É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
+           A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", 
+           fazendo com que ele tenha uma aparência similar a de um texto legível. Muitos softwares de publicação e editores de páginas na internet agora usam 
+           Lorem Ipsum como texto-modelo padrão, e uma rápida busca por 'lorem ipsum' mostra vários websites ainda em sua fase de construção. Várias versões novas 
+           surgiram ao longo dos anos, eventualmente por acidente, e às vezes de propósito (injetando humor, e coisas do gênero).
+        </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+
+    <TestemuUm />
+
+    
 
   </main>
 </template>
@@ -48,14 +57,40 @@
 <script>
 import MenuTeste from '~/components/menus/MenuTeste'
 import TopUm from '~/components/topinhos/TopUm'
+import SliderTeste from '~/components/slider/SliderTeste'
+import FlipCards from '~/components/corpo/FlipCards'
+import TestemuUm from '~/components/testimunion/testemuUm'
 
 export default{
   components: {
     MenuTeste,
     TopUm,
+    SliderTeste,
+    FlipCards,
+    TestemuUm
+
   }
 }
 
 </script>
+
+<style scoped>
+@import "~/assets/css/animate.css";
+@import '~/assets/css/bootstrap.css';
+@import '~/assets/css/font-icons.css';
+@import '~/assets/css/swiper.css';
+@import '~/assets/global.css';
+
+.grid {
+    display: flex;
+    align-items: center;
+}
+
+.componetes {
+    padding: 0 40px;
+}
+
+</style>
+
 
 
